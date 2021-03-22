@@ -1,0 +1,15 @@
+# general
+batch_size: 16
+input_size: 160
+embd_shape: 128
+sub_name: 'facenet_triplet'
+is_ccrop: False
+
+# train
+alpha: 4
+binary_img: True
+num_samples: 2461 #2175474
+epochs: 100
+base_lr: 0.01
+w_decay: !!float 5e-4
+save_steps: 10000
